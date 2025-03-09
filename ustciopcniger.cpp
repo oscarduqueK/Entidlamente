@@ -76,4 +76,6 @@ int main() {
     printMap(level1);
     freeMapMemory(level1);
     return 0;
+
+    cout << "puto rustico" << endl;
 }
