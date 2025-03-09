@@ -53,8 +53,8 @@ void PointerAgay()
 }
 
 
-void main()
-{
-	Pointers();  
-	PointerAgay();  
-}
+//void main()
+//{
+//	Pointers();  
+//	PointerAgay();  
+//}
