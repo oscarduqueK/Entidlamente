@@ -1,38 +1,38 @@
-#pragma once
-#include <iostream>
-enum class CellType
-{
-	EMPTY,
-	OBSTACULO,
-	WALL,
-	PLAYER,
-	ENEMY,
-	COUNT
-};
-
-
-struct Mapa
-{
-
-	// Constructor & Destructor included
-	Mapa()
-	{
-		// Metodo vacio POR DEFECTO
-	};
-
-	~Mapa()
-	{
-		// Metodo vacio POR DEFECTO
-
-	};
-
-	// Array 2D ( We chose to be dynamic)
-	int m_numRows;
-	int m_numColumns;
-	CellType** m_level;
-
-	void initLevel(int numRows, int numColumns);
-	void printLevel();
-	void destroyLevel();
-};
-
+//#pragma once
+//#include <iostream>
+//enum class celltype
+//{
+//	empty,
+//	obstaculo,
+//	wall,
+//	player,
+//	enemy,
+//	count
+//};
+//
+//
+//struct mapa
+//{
+//
+//	// constructor & destructor included
+//	mapa()
+//	{
+//		// metodo vacio por defecto
+//	};
+//
+//	~mapa()
+//	{
+//		// metodo vacio por defecto
+//
+//	};
+//
+//	// array 2d ( we chose to be dynamic)
+//	int m_numrows;
+//	int m_numcolumns;
+//	celltype** m_level;
+//
+//	void initlevel(int numrows, int numcolumns);
+//	void printlevel();
+//	void destroylevel();
+//};
+//
