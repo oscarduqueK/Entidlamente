@@ -129,8 +129,12 @@
   <ItemGroup>
     <ClCompile Include="DiosdelaMente.cpp" />
     <ClCompile Include="enumsdelamente.cpp" />
+    <ClCompile Include="Mapa.cpp" />
     <ClCompile Include="pointers.cpp" />
     <ClCompile Include="ustciopcniger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mapa.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

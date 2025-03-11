@@ -64,21 +64,21 @@ void freeMapMemory(Map& map) {
     delete[] map.matrix;
 }
 
-int main() {
-    Map level1;
-    cout << "filas: " << endl;
-    cout << "columnas: " << endl;
-    cin >> level1.rows;
-    cin >> level1.cols;
-    //level1.rows = 10;
-    //level1.cols = 10;
-    initializeMap(level1);
-    printMap(level1);
-    freeMapMemory(level1);
-
-    cout << "puto rustico" << endl;
-
-    return 0;
-
-    cout << "puto rustico" << endl;
-}
+//int main() {
+//    Map level1;
+//    cout << "filas: " << endl;
+//    cout << "columnas: " << endl;
+//    cin >> level1.rows;
+//    cin >> level1.cols;
+//    //level1.rows = 10;
+//    //level1.cols = 10;
+//    initializeMap(level1);
+//    printMap(level1);
+//    freeMapMemory(level1);
+//
+//    cout << "puto rustico" << endl;
+//
+//    return 0;
+//
+//    cout << "puto rustico" << endl;
+//}
