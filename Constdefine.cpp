@@ -26,20 +26,20 @@ int SquareFunction(int x)
 	return x*x;
 }
 
-int main() 
-{
-	const int b = 10;
-#ifdef DEBUG_ENABLE
-	print(b);
-#endif
-
-	//le pasamos el 3 ahi dentro del parentesis
-	cout << SquareFunction(10) << endl;
-	cout << square(10) << endl; 
-
-	//probamos otra manera
-	int a = 3;
-	//cout << SquareFunction(++a) << endl; 
-	cout << square(++a) << endl; 
-
-}
+//int main() 
+//{
+//	const int b = 10;
+//#ifdef DEBUG_ENABLE
+//	print(b);
+//#endif
+//
+//	//le pasamos el 3 ahi dentro del parentesis
+//	cout << SquareFunction(10) << endl;
+//	cout << square(10) << endl; 
+//
+//	//probamos otra manera
+//	int a = 3;
+//	//cout << SquareFunction(++a) << endl; 
+//	cout << square(++a) << endl; 
+//
+//}
