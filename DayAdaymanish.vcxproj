@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="agaydinamicotamaño.cpp" />
     <ClCompile Include="Constdefine.cpp" />
+    <ClCompile Include="vector.cpp" />
     <ClCompile Include="GameLoop.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
