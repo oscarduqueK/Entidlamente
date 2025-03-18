@@ -109,8 +109,8 @@ struct VectorRusticoCustom {
 	}
 };
 
-int main()
-{
-	Vectors();
-	//llamar a customvector del strcut este de polla
-}
+//int main()
+//{
+//	Vectors();
+//	//llamar a customvector del strcut este de polla
+//}
