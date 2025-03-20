@@ -67,10 +67,10 @@ void ej1(raboscar& oscar)
 	 
 }
 
-void main()
-{
-	srand(time(NULL));
-	raboscar oscar;
-	ej1(oscar); 
-
-}
+//void main()
+//{
+//	srand(time(NULL));
+//	raboscar oscar;
+//	ej1(oscar); 
+//
+//}
