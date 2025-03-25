@@ -12,8 +12,6 @@ struct raboscar {
 	string DNI;  
 };
 
-
-
 void ej1(raboscar& oscar)
 {
 	 
@@ -103,9 +101,19 @@ void ej3(vector<string>& vc1, vector<string>& vc2, int& size)
 }
 
 //recibir un vector y desplazar sus numeros +1 a la derecha
-void ej4(vector<int>& vd1, int& size)
+void ej4(vector<int>& vd1, int& sizee)
 {
 	//pendiente mi rabo en tu frente
+	vd1[0] = rand() % 10;
+	for (int i = 0; i < sizee + 1; i++)
+	{
+		vd1[i+1] = vd1[i]; 
+	}
+
+	for (int a : vd1)
+	{
+		cout << a << " ";
+	}cout << endl;
 }
 
 void main()
@@ -131,7 +139,8 @@ void main()
 	ej3(vc1, vc2, size);  
 
 	//ejercicio 4
+	int sizee;
 	vector<int> vd1 = { 1, 2, 4, 2, 1 };
-	ej4(vd1, size);
+	ej4(vd1, sizee);
 	
 }
