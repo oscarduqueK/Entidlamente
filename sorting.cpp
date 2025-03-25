@@ -56,6 +56,24 @@ void insertionSort(vector<int>& v)
 
 }
 
+void Incrementos() 
+{
+	vector<int> ve = { 10, 5, 6, 1, 2 };
+
+	int i = 0;
+	++i;
+	cout << i << endl;
+	i++;
+	cout << i << endl;
+	cout << ve[i] << endl;
+	cout << ve[i++] << endl;
+	cout << ve[++i] << endl;
+}
+
+//void MergeSort()
+
+
+
 void main()
 {
 	vector<int> v = { 4, 2, 1, 3, 5, 8, 6, 7 };
@@ -63,6 +81,10 @@ void main()
 	selectionSort(v); // se garantiza q v estará ordenado
 	
 	insertionSort(v);
+
+	cout << endl;
+	Incrementos();
+
 
 
 	
