@@ -56,14 +56,14 @@ void insertionSort(vector<int>& v)
 
 }
 
-void main()
-{
-	vector<int> v = { 4, 2, 1, 3, 5, 8, 6, 7 };
-	
-	selectionSort(v); // se garantiza q v estará ordenado
-	
-	insertionSort(v);
-
-
-	
-}
+//void main()
+//{
+//	vector<int> v = { 4, 2, 1, 3, 5, 8, 6, 7 };
+//	
+//	selectionSort(v); // se garantiza q v estará ordenado
+//	
+//	insertionSort(v);
+//
+//
+//	
+//}
