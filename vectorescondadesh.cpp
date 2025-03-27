@@ -116,31 +116,31 @@ void ej4(vector<int>& vd1, int& sizee)
 	}cout << endl;
 }
 
-void main()
-{
-	srand(time(NULL));
-
-	//ejercicio 1
-	raboscar oscar;
-	ej1(oscar); 
-
-
-	//ejercicio2
-	int size = 5;
-	vector<int> ve1 = { 1, 2, 4, 2, 1 }; 
-	vector<int> ve2 = { 5, 4, 2, 4, 5 }; 
-	vector<int> ve3(size); 
-	ej2(ve1, ve2, ve3, size);  
-	
-
-	//ejercicio 3
-	vector<string> vc1 = { "Paco" };
-	vector<string> vc2 = { "Gerte" };
-	ej3(vc1, vc2, size);  
-
-	//ejercicio 4
-	int sizee;
-	vector<int> vd1 = { 1, 2, 4, 2, 1 };
-	ej4(vd1, sizee);
-	
-}
+//void main()
+//{
+//	srand(time(NULL));
+//
+//	//ejercicio 1
+//	raboscar oscar;
+//	ej1(oscar); 
+//
+//
+//	//ejercicio2
+//	int size = 5;
+//	vector<int> ve1 = { 1, 2, 4, 2, 1 }; 
+//	vector<int> ve2 = { 5, 4, 2, 4, 5 }; 
+//	vector<int> ve3(size); 
+//	ej2(ve1, ve2, ve3, size);  
+//	
+//
+//	//ejercicio 3
+//	vector<string> vc1 = { "Paco" };
+//	vector<string> vc2 = { "Gerte" };
+//	ej3(vc1, vc2, size);  
+//
+//	//ejercicio 4
+//	int sizee;
+//	vector<int> vd1 = { 1, 2, 4, 2, 1 };
+//	ej4(vd1, sizee);
+//	
+//}

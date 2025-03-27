@@ -15,22 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Constdefine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="agaydinamicotamaño.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GameLoop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sorting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="vector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="vectorescondadesh.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="sorting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

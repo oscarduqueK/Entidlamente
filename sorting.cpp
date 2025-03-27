@@ -56,7 +56,7 @@ void insertionSort(vector<int>& v)
 
 }
 
-<<<<<<< HEAD
+
 void Incrementos() 
 {
 	vector<int> ve = { 10, 5, 6, 1, 2 };
@@ -71,11 +71,23 @@ void Incrementos()
 	cout << ve[++i] << endl;
 }
 
+struct Person {
+	int dick; 
+};
+
 //void MergeSort()
+void Sortcpp()
+{
+
+}
+
+bool ComparePersonNameAndAge(Person& a, Person&b)
+{
+
+}
 
 
-
-void main()
+int main()
 {
 	vector<int> v = { 4, 2, 1, 3, 5, 8, 6, 7 };
 	
@@ -85,21 +97,5 @@ void main()
 
 	cout << endl;
 	Incrementos();
-
-
-
-	
 }
-=======
-//void main()
-//{
-//	vector<int> v = { 4, 2, 1, 3, 5, 8, 6, 7 };
-//	
-//	selectionSort(v); // se garantiza q v estará ordenado
-//	
-//	insertionSort(v);
-//
-//
-//	
-//}
->>>>>>> origin/main
+
