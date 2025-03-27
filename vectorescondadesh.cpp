@@ -67,10 +67,80 @@ void ej1(raboscar& oscar)
 	 
 }
 
-//void main()
-//{
-//	srand(time(NULL));
-//	raboscar oscar;
-//	ej1(oscar); 
-//
-//}
+//crear ve1 y ve2 y crear v3 (ve3 = ve1 + ve2)
+void ej2(vector<int>& ve1, vector<int>& ve2, vector<int>& ve3, int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		ve3[i] = ve1[i] + ve2[i];
+	}
+
+	for (int a : ve3) 
+	{
+		cout << a << " "; 
+	}cout << endl; 
+}
+
+//crear dos vectores de strings, concatenacion de los cuales se almacenara en vc1
+void ej3(vector<string>& vc1, vector<string>& vc2, int& size)  
+{
+	//vc1.insert(vc1.end(), vc2.begin(), vc2.end()); 
+	size = vc1.size();
+	//vc1.resize(size);
+
+
+	for (int i = 0; i < size; i++)
+	{ 
+		vc1[i] = vc1[i] + " " + vc2[i];  
+	}
+
+	for (string a : vc1) 
+	{
+		cout << a << " "; 
+	}cout << endl; 
+}
+
+//recibir un vector y desplazar sus numeros +1 a la derecha
+void ej4(vector<int>& vd1, int& sizee)
+{
+	//pendiente mi rabo en tu frente
+	vd1[0] = rand() % 10;
+	for (int i = 0; i < sizee + 1; i++)
+	{
+		vd1[i+1] = vd1[i]; 
+	}
+
+	for (int a : vd1)
+	{
+		cout << a << " ";
+	}cout << endl;
+}
+
+void main()
+{
+	srand(time(NULL));
+
+	//ejercicio 1
+	raboscar oscar;
+	ej1(oscar); 
+
+
+	//ejercicio2
+	int size = 5;
+	vector<int> ve1 = { 1, 2, 4, 2, 1 }; 
+	vector<int> ve2 = { 5, 4, 2, 4, 5 }; 
+	vector<int> ve3(size); 
+	ej2(ve1, ve2, ve3, size);  
+	
+
+	//ejercicio 3
+	vector<string> vc1 = { "Paco" };
+	vector<string> vc2 = { "Gerte" };
+	ej3(vc1, vc2, size);  
+
+	//ejercicio 4
+	int sizee;
+	vector<int> vd1 = { 1, 2, 4, 2, 1 };
+	ej4(vd1, sizee);
+	
+}

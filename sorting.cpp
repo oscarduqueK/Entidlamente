@@ -56,6 +56,7 @@ void insertionSort(vector<int>& v)
 
 }
 
+<<<<<<< HEAD
 void Incrementos() 
 {
 	vector<int> ve = { 10, 5, 6, 1, 2 };
@@ -89,3 +90,16 @@ void main()
 
 	
 }
+=======
+//void main()
+//{
+//	vector<int> v = { 4, 2, 1, 3, 5, 8, 6, 7 };
+//	
+//	selectionSort(v); // se garantiza q v estará ordenado
+//	
+//	insertionSort(v);
+//
+//
+//	
+//}
+>>>>>>> origin/main
