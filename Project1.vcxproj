@@ -128,7 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="agaydinamicotamaño.cpp" />
+    <ClCompile Include="cast.cpp" />
     <ClCompile Include="GameLoop.cpp" />
+    <ClCompile Include="operadores.cpp" />
     <ClCompile Include="sorting.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="vectorescondadesh.cpp" />

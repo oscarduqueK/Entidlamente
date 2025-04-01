@@ -30,5 +30,11 @@
     <ClCompile Include="vectorescondadesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="operadores.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
