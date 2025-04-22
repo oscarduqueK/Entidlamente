@@ -216,28 +216,28 @@ void RedimensionDeAgays()
 	}
 }
 
-void main()  
-{
-	//poner numeros randoms
-	srand(time(NULL));
-
-	//Ejercicio propuesto por manish de la mente
-	//Devilbao();
-
-	//Ejercicio para que nos pregunte el tamaño de un array y llenarlo
-	//ArraysDinamicosgpt();  
-
-	//lo mismo pero lo he hecho yo con un enunciado de gpt
-	//ArraysDinagays(); 
-
-	//Resize de los arrays, lo que es basicaMENTE un vector pero a mano
-	//Para redimensionar un array hay que crear el original y uno nuevo con mas espacio
-	//Luego se copia de uno a otro y se elimina el viejo, asi constanteMENTE
-	//ResizeDeAgays();
-
-	//lo mismo pero lo he hecho yo con un enunciado de gpt
-	//En este problema nos dan un tamaño definido y al preguntarnos y decir un numero mas grande que ese, obligamos al codigo a redimensionar el array
-	//De este modo cuando lo redimensionamos creamos un nuevo array, una nueva capacidad y pasamos los datos de uno a otro
-	RedimensionDeAgays();
-}
+//void main()  
+//{
+//	//poner numeros randoms
+//	srand(time(NULL));
+//
+//	//Ejercicio propuesto por manish de la mente
+//	//Devilbao();
+//
+//	//Ejercicio para que nos pregunte el tamaño de un array y llenarlo
+//	//ArraysDinamicosgpt();  
+//
+//	//lo mismo pero lo he hecho yo con un enunciado de gpt
+//	//ArraysDinagays(); 
+//
+//	//Resize de los arrays, lo que es basicaMENTE un vector pero a mano
+//	//Para redimensionar un array hay que crear el original y uno nuevo con mas espacio
+//	//Luego se copia de uno a otro y se elimina el viejo, asi constanteMENTE
+//	//ResizeDeAgays();
+//
+//	//lo mismo pero lo he hecho yo con un enunciado de gpt
+//	//En este problema nos dan un tamaño definido y al preguntarnos y decir un numero mas grande que ese, obligamos al codigo a redimensionar el array
+//	//De este modo cuando lo redimensionamos creamos un nuevo array, una nueva capacidad y pasamos los datos de uno a otro
+//	RedimensionDeAgays();
+//}
 

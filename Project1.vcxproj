@@ -131,6 +131,7 @@
     <ClCompile Include="cast.cpp" />
     <ClCompile Include="devilex.cpp" />
     <ClCompile Include="GameLoop.cpp" />
+    <ClCompile Include="Objetos.cpp" />
     <ClCompile Include="operadores.cpp" />
     <ClCompile Include="sorting.cpp" />
     <ClCompile Include="vector.cpp" />
