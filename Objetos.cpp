@@ -39,18 +39,18 @@ class Person
     }
 };
 
-int main() 
-{
-    // Crear un objeto de la clase Person
-    Person p1("Manish", 25);
-
-
-    // Mostrar información del objeto
-    p1.introduce();
-    // Cambiar la edad y mostrar de nuevo
-    p1.setAge(26);
-    cout << "Despuas de cumplir aaos: ";
-    p1.introduce();
-
-    return 0;
-}
+//int main() 
+//{
+//    // Crear un objeto de la clase Person
+//    Person p1("Manish", 25);
+//
+//
+//    // Mostrar información del objeto
+//    p1.introduce();
+//    // Cambiar la edad y mostrar de nuevo
+//    p1.setAge(26);
+//    cout << "Despuas de cumplir aaos: ";
+//    p1.introduce();
+//
+//    return 0;
+//}
