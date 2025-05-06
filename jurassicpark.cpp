@@ -16,13 +16,26 @@ class Scientist {
     bool m_isDead;
 
 public:
-    Scientist() : m_isDead(false) {
-        m_pos = { rand() % 100, rand() % 100 };
+    Scientist() : m_isDead(false) 
+    {
+        m_pos = { 
+            rand() % 100, rand() % 100
+        };
     }
 
-    Position2D GetPos() const { return m_pos; }
-    void SetPos(Position2D pos) { m_pos = pos; }
-    bool IsDead() const { return m_isDead; }
+    Position2D GetPos() const
+    {
+        return m_pos; 
+    }
+   
+    void SetPos(Position2D pos) 
+    { 
+        m_pos = pos;
+    }
+    bool IsDead() const 
+    { 
+        return m_isDead; 
+    }
 };
 
 // Dinosaur
