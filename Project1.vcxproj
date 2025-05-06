@@ -135,6 +135,8 @@
     <ClCompile Include="Objetos.cpp" />
     <ClCompile Include="operadores.cpp" />
     <ClCompile Include="sorting.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="StackyNodos.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="vectorescondadesh.cpp" />
   </ItemGroup>

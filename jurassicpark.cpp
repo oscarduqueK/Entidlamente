@@ -192,10 +192,10 @@ public:
 };
 
 // main
-int main() {
-    srand(time(0)); // Para aleatoriedad de posiciones
-    GameLoop game;
-    game.Init();
-    game.Update();
-    return 0;
-}
+//int main() {
+//    srand(time(0)); // Para aleatoriedad de posiciones
+//    GameLoop game;
+//    game.Init();
+//    game.Update();
+//    return 0;
+//}
