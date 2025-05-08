@@ -134,6 +134,7 @@
     <ClCompile Include="jurassicpark.cpp" />
     <ClCompile Include="Objetos.cpp" />
     <ClCompile Include="operadores.cpp" />
+    <ClCompile Include="Queue.cpp" />
     <ClCompile Include="sorting.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="StackyNodos.cpp" />
