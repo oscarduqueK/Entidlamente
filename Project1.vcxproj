@@ -132,6 +132,7 @@
     <ClCompile Include="devilex.cpp" />
     <ClCompile Include="GameLoop.cpp" />
     <ClCompile Include="jurassicpark.cpp" />
+    <ClCompile Include="lsit.cpp" />
     <ClCompile Include="Objetos.cpp" />
     <ClCompile Include="operadores.cpp" />
     <ClCompile Include="Queue.cpp" />

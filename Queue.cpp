@@ -28,6 +28,9 @@ void basics1()
 	}
 }
 
+//teoria de tamplates
+template<class T>
+
 class queuee 
 {
 	struct Node
@@ -54,7 +57,7 @@ public:
 	void push()
 	{
 		Node* node = new Node();
-		Node node;
+		//Node node;
 
 		if (first == nullptr || size == 0 || last == nullptr)
 		{
@@ -88,7 +91,7 @@ public:
 	}
 };
 
-void main()
-{
-	basics1();
-}
+//void main()
+//{
+//	basics1();
+//}
