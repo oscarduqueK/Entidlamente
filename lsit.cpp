@@ -148,10 +148,10 @@ void ListConNodos()
     display(head);
 }
 
-int main() 
-{
-    List();
-    ListInsertErase();
-    return 0;
-    ListConNodos();
-}
+//int main() 
+//{
+//    List();
+//    ListInsertErase();
+//    return 0;
+//    ListConNodos();
+//}
